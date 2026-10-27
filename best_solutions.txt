@@ -1,0 +1,21 @@
+Generation 0: Locked: 1 | Best tour: 1   6   2   8   5   7   3   4   9  10 | Distance: 9.8767
+Generation 1: Locked: 1 | Best tour: 1   6   3   8   5   7   2   4   9  10 | Distance: 9.5494
+Generation 1: Locked: 1 | Best tour: 1   3   2   8   9   4   7   5   6  10 | Distance: 8.7758
+Generation 1: Locked: 1 | Best tour: 1   7   4   5   6   9   2   3   8  10 | Distance: 8.3941
+Generation 1: Locked: 1 | Best tour: 1   7   4   5   3   9   2   6   8  10 | Distance: 7.6323
+Generation 1: Locked: 1 | Best tour: 1   7   4   8   6   9   3   2   5  10 | Distance: 7.0618
+Generation 1: Locked: 1 | Best tour: 1   7   6   8   4   9   3   2   5  10 | Distance: 6.7596
+Generation 2: Locked: 1  7 | Best tour: 1   7   6   8   4   9   3   2   5  10 | Distance: 6.7596
+Generation 2: Locked: 1  7 | Best tour: 1   7   6   8   4   9   2   3   5  10 | Distance: 6.3592
+Generation 2: Locked: 1  7 | Best tour: 1   7   2   6   8   9   4   3   5  10 | Distance: 6.3320
+Generation 2: Locked: 1  7 | Best tour: 1   7   4   9   8   6   5   2   3  10 | Distance: 6.2400
+Generation 3: Locked: 1  7 | Best tour: 1   7   4   9   8   6   2   5   3  10 | Distance: 5.6651
+Generation 4: Locked: 1  7 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 23: Locked: 1  7  4 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 44: Locked: 1  7  4  9 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 65: Locked: 1  7  4  9  8 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 86: Locked: 1  7  4  9  8  6 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 106: Locked: 1  7  4  9  8  6  2 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 127: Locked: 1  7  4  9  8  6  2  3 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 148: Locked: 1  7  4  9  8  6  2  3  5 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 169: Locked: 1   7   4   9   8   6   2   3   5  10 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
