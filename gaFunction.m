@@ -15,7 +15,7 @@ function gaFunction(dq, cities, distances, sharedData)
     bestDistance = calculateTourDistance(bestTour, distances);
 
     send(dq, struct('tour', bestTour, 'distance', bestDistance, 'generation', 0, 'message', 'BestSolutionUpdated'));
-    fprintf(fileID, 'Generation 0: Locked: %s | Best tour: %s | Distance: %.4f\n', num2str(prefix), num2str(bestTour), bestDistance);
+    fprintf(fileID, 'Generation 0: Locked: %d | Best tour: %s | Distance: %.4f\n', prefix(end), num2str(bestTour), bestDistance);
 
     gen = 0;
     running = true;
@@ -32,7 +32,7 @@ function gaFunction(dq, cities, distances, sharedData)
             rest = bestTour(~ismember(bestTour, prefix));
             bestTour = [prefix, rest];
             bestDistance = calculateTourDistance(bestTour, distances);
-            fprintf(fileID, 'Generation %d: Locked: %s | Best tour: %s | Distance: %.4f\n', gen, num2str(prefix), num2str(bestTour), bestDistance);
+            fprintf(fileID, 'Generation %d: Locked: %d | Best tour: %s | Distance: %.4f\n', gen, prefix(end), num2str(bestTour), bestDistance);
             send(dq, struct('tour', bestTour, 'distance', bestDistance, 'generation', gen, 'message', 'BestSolutionUpdated'));
             [msg, ok] = poll(workerQueue);
         end
@@ -59,7 +59,7 @@ function gaFunction(dq, cities, distances, sharedData)
                 if newDistance < bestDistance
                     bestTour = newTour;
                     bestDistance = newDistance;
-                    fprintf(fileID, 'Generation %d: Locked: %s | Best tour: %s | Distance: %.4f\n', gen, num2str(prefix), num2str(bestTour), bestDistance);
+                    fprintf(fileID, 'Generation %d: Locked: %d | Best tour: %s | Distance: %.4f\n', gen, prefix(end), num2str(bestTour), bestDistance);
                     send(dq, struct('tour', bestTour, 'distance', bestDistance, 'generation', gen, 'message', 'BestSolutionUpdated'));
                 end
             end

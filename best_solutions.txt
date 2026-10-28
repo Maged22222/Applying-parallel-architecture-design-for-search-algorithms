@@ -1,21 +1,64 @@
-Generation 0: Locked: 1 | Best tour: 1   6   2   8   5   7   3   4   9  10 | Distance: 9.8767
-Generation 1: Locked: 1 | Best tour: 1   6   3   8   5   7   2   4   9  10 | Distance: 9.5494
-Generation 1: Locked: 1 | Best tour: 1   3   2   8   9   4   7   5   6  10 | Distance: 8.7758
-Generation 1: Locked: 1 | Best tour: 1   7   4   5   6   9   2   3   8  10 | Distance: 8.3941
-Generation 1: Locked: 1 | Best tour: 1   7   4   5   3   9   2   6   8  10 | Distance: 7.6323
-Generation 1: Locked: 1 | Best tour: 1   7   4   8   6   9   3   2   5  10 | Distance: 7.0618
-Generation 1: Locked: 1 | Best tour: 1   7   6   8   4   9   3   2   5  10 | Distance: 6.7596
-Generation 2: Locked: 1  7 | Best tour: 1   7   6   8   4   9   3   2   5  10 | Distance: 6.7596
-Generation 2: Locked: 1  7 | Best tour: 1   7   6   8   4   9   2   3   5  10 | Distance: 6.3592
-Generation 2: Locked: 1  7 | Best tour: 1   7   2   6   8   9   4   3   5  10 | Distance: 6.3320
-Generation 2: Locked: 1  7 | Best tour: 1   7   4   9   8   6   5   2   3  10 | Distance: 6.2400
-Generation 3: Locked: 1  7 | Best tour: 1   7   4   9   8   6   2   5   3  10 | Distance: 5.6651
-Generation 4: Locked: 1  7 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 23: Locked: 1  7  4 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 44: Locked: 1  7  4  9 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 65: Locked: 1  7  4  9  8 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 86: Locked: 1  7  4  9  8  6 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 106: Locked: 1  7  4  9  8  6  2 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 127: Locked: 1  7  4  9  8  6  2  3 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 148: Locked: 1  7  4  9  8  6  2  3  5 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
-Generation 169: Locked: 1   7   4   9   8   6   2   3   5  10 | Best tour: 1   7   4   9   8   6   2   3   5  10 | Distance: 5.5894
+Generation 0: Locked: 1 | Best tour: 1  17  24  16  22   6   2  23  29  15  26   8  11  12  28  18  21   5  19   7  13   3  27  25  10   4  14   9  20  30 | Distance: 21.0285
+Generation 1: Locked: 1 | Best tour: 1  21  23   4  22  12   3  24   9   8  16  11   7  27  18   5  20  19  10  13  29  15  26  25  14   2  17   6  28  30 | Distance: 20.8371
+Generation 1: Locked: 1 | Best tour: 1  21  23   4  22  12   3  10   9   8  16  11   7  27  18   5  20  19  24  13  29  15  26  25  14   2  17   6  28  30 | Distance: 19.9009
+Generation 1: Locked: 1 | Best tour: 1  21  23   4  22  12   2  10   9   8  16  11   7  27  18   5  20  19  24  13  29  15  26  25  14   3  17   6  28  30 | Distance: 19.5497
+Generation 1: Locked: 1 | Best tour: 1   6  15  19   3  13   9  21  16  28  22  25   7  23  10  24   2  17   8  12  27  18  20  26  11  14   5  29   4  30 | Distance: 19.2694
+Generation 1: Locked: 1 | Best tour: 1   6  15  19   3  13   9  21  16  28  22  25   7  14  10  24   2  17   8  12  27  18  20  26  11  23   5  29   4  30 | Distance: 19.0286
+Generation 1: Locked: 1 | Best tour: 1   6  15  19   3  13   9  21  16  28  22  25   7  14  10  24   2  17  23  12  27  18  20  26  11   8   5  29   4  30 | Distance: 19.0081
+Generation 1: Locked: 1 | Best tour: 1   6  15  19   3  13   9  21  16  28  22  25   7  14  10  24   2  17  23  12  27  18  11  26  20   8   5  29   4  30 | Distance: 18.7864
+Generation 1: Locked: 1 | Best tour: 1   6  15  19  25  13   9  21  16  28  22   3   7  14  10  24   2  17  23  12  27  18  11  26  20   8   5  29   4  30 | Distance: 18.3169
+Generation 2: Locked: 6 | Best tour: 1   6  15  19  25  13   9  21  16  28  22   3   7  14  10  24   2  17  23  12  27  18  11  26  20   8   5  29   4  30 | Distance: 18.3169
+Generation 2: Locked: 6 | Best tour: 1   6  15  19  25  13   9  21  16  28  22   3   7  14  10  24   2  17  23  12  27  18   8  26  20  11   5  29   4  30 | Distance: 18.1619
+Generation 2: Locked: 6 | Best tour: 1   6  15  19  25  29   9  21  16  28  22   3   7  14  10  24   2  17  23  12  27  18   8  26  20  11   5  13   4  30 | Distance: 17.3587
+Generation 2: Locked: 6 | Best tour: 1   6  15  23  25  29   9  21  16  28  22   3   7  14  10  24   2  17  19  12  27  18   8  26  20  11   5  13   4  30 | Distance: 17.2191
+Generation 3: Locked: 6 | Best tour: 1   6  15  23  25  29   9  21  16  28  22   3   7  14  26  24   2  17  19  12  27  18   8  10  20  11   5  13   4  30 | Distance: 17.1010
+Generation 3: Locked: 6 | Best tour: 1   6  15  23  25  29   9  21  16  28  22   3   7  14  26  24   2  17  19  18  27  12   8  10  20  11   5  13   4  30 | Distance: 17.0154
+Generation 3: Locked: 6 | Best tour: 1   6  15  23  25  29   9  22  16  28  21   3   7  14  26  24   2  17  19  18  27  12   8  10  20  11   5  13   4  30 | Distance: 16.8064
+Generation 4: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  28  21   3   7  14  26  24   2  17  19  18  27  12   8  10  20  11   5  13   4  30 | Distance: 16.7909
+Generation 4: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  28  21   3   7  14  26  24   5  17  19  18  27  12   8  10  20  11   2  13   4  30 | Distance: 16.7315
+Generation 5: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  28  21   3   7  14  26  24   5   2  19  18  27  12   8  10  20  11  17  13   4  30 | Distance: 16.6748
+Generation 7: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  18  21   3   7  14  26  24   5   2  19  28  27  12   8  10  20  11  17  13   4  30 | Distance: 16.4505
+Generation 7: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  18  21   3   7  14  26  24   5   2  19  28  27  11   8  10  20  12  17  13   4  30 | Distance: 16.2414
+Generation 8: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  18  21   3   7  14  26  24   5   2  19  28  27  11  12  10  20   8  17  13   4  30 | Distance: 16.0895
+Generation 8: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  11  21   3   7  14  26  24   5   2  19  28  27  18  12  10  20   8  17  13   4  30 | Distance: 16.0363
+Generation 8: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  11  21   3   7  14  26  24   5   2  19  28  27  18   8  10  20  12  17  13   4  30 | Distance: 15.9009
+Generation 9: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  11  21   3   7  14  24  26   5   2  19  28  27  18   8  10  20  12  17  13   4  30 | Distance: 15.7879
+Generation 10: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  16  11  21   3   7  14  24   8   5   2  19  28  27  18  26  10  20  12  17  13   4  30 | Distance: 15.7843
+Generation 12: Locked: 6 | Best tour: 1   6  15  23  29  25   9  22  12  11  21   3   7  14  24   8   5   2  19  28  27  18  26  10  20  16  17  13   4  30 | Distance: 15.7630
+Generation 12: Locked: 6 | Best tour: 1   6  15  23  29  25   9  16  12  11  21   3   7  14  24   8   5   2  19  28  27  18  26  10  20  22  17  13   4  30 | Distance: 15.5996
+Generation 14: Locked: 6 | Best tour: 1   6  15  23  29  25  20  16  12  11  21   3   7  14  24   8   5   2  19  28  27  18  26  10   9  22  17  13   4  30 | Distance: 15.5202
+Generation 14: Locked: 6 | Best tour: 1   6  15  23  29  25  11  16  12  20  21   3   7  14  24   8   5   2  19  28  27  18  26  10   9  22  17  13   4  30 | Distance: 15.3955
+Generation 14: Locked: 6 | Best tour: 1   6  15  23  29  25  11  16  12  20  21  17   7  14  24   8   5   2  19  28  27  18  26  10   9  22   3  13   4  30 | Distance: 15.3608
+Generation 15: Locked: 6 | Best tour: 1   6  15  23  29  25  11  16  12  20  21  17   7  14  24   8   5   2  19  28  27  18  26  10  22   9   3  13   4  30 | Distance: 15.0790
+Generation 16: Locked: 6 | Best tour: 1   6  15  23  29  25  11  16  12  20  21  17   7  14  24   8   5   2  19  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.8925
+Generation 19: Locked: 6 | Best tour: 1   6  15  23  25  29  11  16  12  20  21  17   7  14  24   8   5   2  19  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.8005
+Generation 19: Locked: 6 | Best tour: 1   6  15  23  25  29  11  12  16  20  21  17   7  14  24   8   5   2  19  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.7431
+Generation 23: Locked: 15 | Best tour: 1   6  15  23  25  29  11  12  16  20  21  17   7  14  24   8   5   2  19  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.7431
+Generation 25: Locked: 15 | Best tour: 1   6  15  25  23  29  11  12  16  20  21  17   7  14  24   8   5   2  19  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.7310
+Generation 27: Locked: 15 | Best tour: 1   6  15  25  29  23  11  12  16  20  21  17   7  14  24   8   5   2  19  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.7137
+Generation 27: Locked: 15 | Best tour: 1   6  15  29  25  23  11  12  16  20  21  17   7  14  24   8   5   2  19  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.5758
+Generation 33: Locked: 15 | Best tour: 1   6  15  29  25  23  11  12  16  20  21  17   7  14  19   8   5   2  24  27  28  18  26  10  22   9   3  13   4  30 | Distance: 14.5325
+Generation 43: Locked: 15 | Best tour: 1   6  15  29  25  23  18  12  16  20  21  17   7  14  19   8   5   2  24  27  28  11  26  10  22   9   3  13   4  30 | Distance: 14.5296
+Generation 43: Locked: 15 | Best tour: 1   6  15  29  25  23  18  12  16  11  21  17   7  14  19   8   5   2  24  27  28  20  26  10  22   9   3  13   4  30 | Distance: 14.4921
+Generation 44: Locked: 29 | Best tour: 1   6  15  29  25  23  18  12  16  11  21  17   7  14  19   8   5   2  24  27  28  20  26  10  22   9   3  13   4  30 | Distance: 14.4921
+Generation 44: Locked: 29 | Best tour: 1   6  15  29  25  23  18  12  16  11  21  17   7  14  19   8   5   2  28  27  24  20  26  10  22   9   3  13   4  30 | Distance: 14.4022
+Generation 48: Locked: 29 | Best tour: 1   6  15  29  25  17  18  12  16  11  21  23   7  14  19   8   5   2  28  27  24  20  26  10  22   9   3  13   4  30 | Distance: 14.3976
+Generation 48: Locked: 29 | Best tour: 1   6  15  29  25  17  18  12  16  11  21  23   7  14  19   8   5   2  28  27  24  10  26  20  22   9   3  13   4  30 | Distance: 14.3835
+Generation 51: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  16  11  18  23   7  14  19   8   5   2  28  27  24  10  26  20  22   9   3  13   4  30 | Distance: 14.2433
+Generation 54: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  11  16  18  23   7  14  19   8   5   2  28  27  24  10  26  20  22   9   3  13   4  30 | Distance: 14.2210
+Generation 56: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  11  16  18  23   7  14  19   2   5   8  28  27  24  10  26  20  22   9   3  13   4  30 | Distance: 14.1036
+Generation 56: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  11  16  18  23   7  14   3   2   5   8  28  27  24  10  26  20  22   9  19  13   4  30 | Distance: 14.0719
+Generation 57: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  11  16  18   3   7  14  23   2   5   8  28  27  24  10  26  20  22   9  19  13   4  30 | Distance: 14.0034
+Generation 57: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  11  16   8   3   7  14  23   2   5  18  28  27  24  10  26  20  22   9  19  13   4  30 | Distance: 13.8740
+Generation 58: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  11  16   8   3  23  14   7   2   5  18  28  27  24  10  26  20  22   9  19  13   4  30 | Distance: 13.7980
+Generation 60: Locked: 29 | Best tour: 1   6  15  29  25  17  21  12  16  11   8   3  23  14   7   2   5  18  28  27  24  10  26  20  22   9  19  13   4  30 | Distance: 13.7859
+Generation 66: Locked: 25 | Best tour: 1   6  15  29  25  17  21  12  16  11   8   3  23  14   7   2   5  18  28  27  24  10  26  20  22   9  19  13   4  30 | Distance: 13.7859
+Generation 66: Locked: 25 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  10  26  20  22   9  19  13   4  30 | Distance: 13.5365
+Generation 69: Locked: 25 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942
+Generation 88: Locked: 17 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942
+Generation 109: Locked: 21 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942
+Generation 131: Locked: 12 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942
+Generation 153: Locked: 16 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942
+Generation 175: Locked: 11 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942
+Generation 197: Locked: 5 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942
+Generation 219: Locked: 3 | Best tour: 1   6  15  29  25  17  21  12  16  11   5   3  23  14   7   2   8  18  28  27  24  26  10  20  22   9  19  13   4  30 | Distance: 13.4942

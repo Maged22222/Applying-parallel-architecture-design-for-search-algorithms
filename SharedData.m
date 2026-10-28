@@ -2,6 +2,7 @@ classdef SharedData < handle
     properties
         BestSolution
         BestDistance
+        InitialDistance = []
         Generation = 0
         IsComplete = false
         IsBestSolutionUpdated = false

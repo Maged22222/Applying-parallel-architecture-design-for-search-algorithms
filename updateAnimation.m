@@ -1,4 +1,4 @@
-function updateAnimation8(sharedData, cities, timerObj, dq)
+function updateAnimation(sharedData, cities, timerObj, dq)
     if sharedData.AnimationDone
         return;
     end
@@ -9,7 +9,15 @@ function updateAnimation8(sharedData, cities, timerObj, dq)
 
     n = size(cities, 1);
 
-    if isempty(sharedData.AgentHandle) || ~isgraphics(sharedData.AgentHandle)
+    if ~isempty(sharedData.AgentHandle) && ~isgraphics(sharedData.AgentHandle)
+        sharedData.AnimationDone = true;
+        if isvalid(timerObj)
+            stop(timerObj);
+        end
+        return;
+    end
+
+    if isempty(sharedData.AgentHandle)
         ax = gca;
         hold(ax, 'on');
         plot3(ax, cities(1,1), cities(1,2), cities(1,3), 'go', 'MarkerSize', 10, 'MarkerFaceColor', 'g');
@@ -38,6 +46,9 @@ function updateAnimation8(sharedData, cities, timerObj, dq)
         send(sharedData.WorkerQueue, sharedData.LockedPrefix);
         sharedData.CurrentStep = 0;
         sharedData.IsMoving = true;
+        if isempty(sharedData.InitialDistance)
+            sharedData.InitialDistance = sharedData.BestDistance;
+        end
     end
 
     p1 = cities(sharedData.FromCity, :);
@@ -56,7 +67,11 @@ function updateAnimation8(sharedData, cities, timerObj, dq)
     planCoords = [pos; cities(plan(m:end), :)];
     set(sharedData.PlanHandle, 'XData', planCoords(:,1), 'YData', planCoords(:,2), 'ZData', planCoords(:,3));
 
-    title(ax, sprintf('Generation: %d | Locked: %s | Best Distance: %.4f', sharedData.Generation, num2str(sharedData.LockedPrefix), sharedData.BestDistance));
+    if ~isempty(sharedData.InitialDistance)
+        title(ax, sprintf('Generation: %d | Locked: %d | Initial Distance: %.4f | Best Distance: %.4f', sharedData.Generation, sharedData.LockedPrefix(end), sharedData.InitialDistance, sharedData.BestDistance), 'FontSize', 9);
+    else
+        title(ax, sprintf('Generation: %d | Locked: %d | Best Distance: %.4f', sharedData.Generation, sharedData.LockedPrefix(end), sharedData.BestDistance), 'FontSize', 9);
+    end
 
     sharedData.CurrentStep = sharedData.CurrentStep + 1;
     if sharedData.CurrentStep >= sharedData.NumSteps
@@ -64,7 +79,11 @@ function updateAnimation8(sharedData, cities, timerObj, dq)
         if sharedData.ToCity == n
             sharedData.AnimationDone = true;
             send(sharedData.WorkerQueue, 'stop');
-            title(ax, sprintf('Complete! Tour: %s | Distance: %.4f', num2str(sharedData.LockedPrefix), sharedData.BestDistance));
+            if ~isempty(sharedData.InitialDistance)
+                title(ax, sprintf('Complete! Initial Distance: %.4f | Final Best Distance: %.4f', sharedData.InitialDistance, sharedData.BestDistance), 'FontSize', 9);
+            else
+                title(ax, sprintf('Complete! Final Best Distance: %.4f', sharedData.BestDistance), 'FontSize', 9);
+            end
             drawnow;
             if isvalid(timerObj)
                 stop(timerObj);
