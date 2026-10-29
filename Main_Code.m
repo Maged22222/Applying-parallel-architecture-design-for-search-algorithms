@@ -1,3 +1,4 @@
+%% setting
 delete(timerfindall);
 delete(findall(groot, 'Type', 'figure'));
 bgPool = backgroundPool;
@@ -17,17 +18,17 @@ if ~isempty(sharedData.BestSolution)
 else
     disp('No Best Solution found.');
 end
-
+%% main code 
 function sharedData = runMain()
     sharedData = SharedData();
     sharedData.BestSolution = [];
     sharedData.IsComplete = false;
     sharedData.FirstCityCoords = [0, 0, 0];
 
-    n = 30;
+    n = 30; % deciding num. of cities 
 
-    intermediateCities = rand(n-2, 3);
-
+    intermediateCities = rand(n-2, 3);% locate the coordinates of cities
+    % decide the first and th last city coordinates
     firstCity = [0, 0, 0];
     lastCity = [1, 1, 1];
 
